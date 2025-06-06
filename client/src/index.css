@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap");
+@import "tailwindcss";
+
+* {
+  font-family: "Comic Relief", system-ui;
+}
+
+.form {
+  @apply w-full border-2 border-teal-600 rounded px-2 py-2 mb-1 focus:outline-none focus:border-teal-500;
+}
